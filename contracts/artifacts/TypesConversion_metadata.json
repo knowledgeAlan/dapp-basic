@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "conversion",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/typeConversionContract.sol": "TypesConversion"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/typeConversionContract.sol": {
+			"keccak256": "0x551d90be7f365c94bd46337133ad03db642c6bff7caedc598dfa4b9045acb0e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bace3921504b647c87dd11c2a9f317f2b5138fd6ff57367256384cbbcd7e5dbd",
+				"dweb:/ipfs/QmaZA5yNUCGoumEfQPxQBRedodnwQfkyodgNL2rwdnzBgJ"
+			]
+		}
+	},
+	"version": 1
+}

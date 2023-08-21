@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_lastName",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_value",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_age",
+						"type": "uint16"
+					}
+				],
+				"name": "addName",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "name",
+						"type": "bytes32"
+					}
+				],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/structsContract.sol": "StructsContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/structsContract.sol": {
+			"keccak256": "0x29bea66ac4d815b5c1b24c203caadebc03ae66e2f476380cae59a32deedbb6ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f6b03be413f026ddfd2c81333ad6e03f67f944c42e4f9be260086e916c4958bb",
+				"dweb:/ipfs/QmQHNq6SMmU2SmSPYaESiaKY8V9baGDDD7NdxFmzJpCEWN"
+			]
+		}
+	},
+	"version": 1
+}
